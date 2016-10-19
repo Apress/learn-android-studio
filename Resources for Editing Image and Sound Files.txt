@@ -1,0 +1,9 @@
+Resources for Editing Image and Sound Files
+
+Browser-based Image Editors. If you're familiar with Photoshop, you will love these and they're free. 
+> apps.pixlr.com/editor.  The best free browser-based image editor. 
+> sumopaint.com.  Another excellent browser-based image editor. 
+
+Browser-based Sound Editors
+> twistedwave.com/online.  Good free web-based sound editor. 
+> soundcloud.com. Another free web-based sound editor. 

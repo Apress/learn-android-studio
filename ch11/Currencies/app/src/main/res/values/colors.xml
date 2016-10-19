@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFF</color>
+    <color name="black">#000</color>
+
+    <color name="grey_very_dark">#111</color>
+    <color name="grey_dark">#222</color>
+    <color name="grey_med_dark">#333</color>
+    <color name="grey_med">#666</color>
+    <color name="grey_light">#AAA</color>
+
+    <color name="turquoise">#ff22e9ff</color>
+    <color name="flat_blue">#ff1a51f4</color>
+
+</resources>

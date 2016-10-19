@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/weatherSummary"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+    <ImageView
+        android:id="@+id/imageIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sunny_icon"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true" />
+
+    <TextView
+        android:id="@+id/dayTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wednesday"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/imageIcon"
+        android:layout_alignParentTop="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mostly Sunny"
+        android:id="@+id/briefForecast"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Patchy fog after 2am.  Otherwise, mostly clear, with a low around 60. North wind 5 to 9 mph becoming calm  in the evening."
+        android:id="@+id/description"
+        android:layout_below="@+id/dayTextView"
+        android:layout_toRightOf="@+id/imageIcon"
+        android:layout_marginLeft="5dp" />
+
+</RelativeLayout>

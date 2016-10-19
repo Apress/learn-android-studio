@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".MainActivity">
+    <item
+        android:id="@+id/mnu_codes"
+        android:orderInCategory="100"
+        android:title="search active codes"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/mnu_invert"
+        android:orderInCategory="200"
+        android:title="invert codes"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/mnu_exit"
+        android:orderInCategory="300"
+        android:title="exit"
+        app:showAsAction="never"/>
+</menu>

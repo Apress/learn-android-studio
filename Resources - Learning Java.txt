@@ -1,0 +1,19 @@
+Resources on Learning Java
+
+> Big Java, Late Objects" by Cay Horstmann. ISBN: 978-1-118-08788-6. Great textbook for mastering Java. 
+
+> Java: A Beginner's Guide by Herbert Schildt ISBN: 978-0071809252. Official book from Oracle. 
+
+> Beginning Java 8 Fundamentals: Language Syntax, Arrays, Data Types, Objects, and Regular Expressions. by Kishori Sharan. ISBN  978-1430266525. Great book on Java8. 
+
+> oracle.com/java/index.html. Oracle's official site for Java.
+
+> java-class.cs.uchicago.edu. Adam Gerber's course on Java including videos and other resources. 
+
+> android.cs.uchicago.edu.  Adam Gerber's course on Android including videos and other resources. 
+
+
+
+
+
+

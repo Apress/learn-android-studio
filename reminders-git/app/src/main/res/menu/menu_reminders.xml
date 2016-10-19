@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.apress.gerber.reminders.app.RemindersActivity" >
+    <item android:id="@+id/action_new"
+        android:title="@string/new_reminder"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_about"
+        android:title="About"
+        android:orderInCategory="200"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_exit"
+        android:title="exit"
+        android:orderInCategory="300"
+        app:showAsAction="never" />
+</menu>

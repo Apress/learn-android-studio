@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<dwml xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0"
+    xsi:noNamespaceSchemaLocation="http://graphical.weather.gov/xml/DWMLgen/schema/DWML.xsd">
+    <head>
+        <product concise-name="dwmlByDay" operational-mode="developmental" srsName="WGS 1984">
+            <creation-date refresh-frequency='PT1H'>2014-08-29T14:43:39-07:00</creation-date>
+            <category>current observations and forecast</category>
+        </product>
+        <source>
+            <production-center>San Francisco Bay Area/Monterey, CA</production-center>
+            <credit>http://www.wrh.noaa.gov/mtr</credit>
+            <more-information>http://www.nws.noaa.gov/forecasts/xml/</more-information>
+        </source>
+    </head>
+    <data type="forecast">
+        <location>
+            <location-key>point1</location-key>
+            <point latitude="37.33" longitude="-122.04" />
+            <area-description>2 Miles NNE Cupertino CA</area-description>
+            <height datum="mean sea level" height-units="feet">243</height>
+        </location>
+        <moreWeatherInformation applicable-location="point1">
+            http://forecast.weather.gov/MapClick.php?lat=37.33&amp;lon=-122.04
+        </moreWeatherInformation>
+        <time-layout summarization="12hourly" time-coordinate="local">
+            <layout-key>k-p12h-n14-1</layout-key>
+            <start-valid-time period-name="Overnight">2014-08-29T06:00:00-07:00</start-valid-time>
+            <start-valid-time period-name="Saturday">2014-08-29T12:00:00-07:00</start-valid-time>
+            <start-valid-time period-name="Saturday Night">2014-08-30T00:00:00-07:00
+            </start-valid-time>
+            <start-valid-time period-name="Sunday">2014-08-30T12:00:00-07:00</start-valid-time>
+            <start-valid-time period-name="Sunday Night">2014-08-31T00:00:00-07:00
+            </start-valid-time>
+            <start-valid-time period-name="Labor Day">2014-08-31T12:00:00-07:00</start-valid-time>
+            <start-valid-time period-name="Monday Night">2014-09-01T00:00:00-07:00
+            </start-valid-time>
+            <start-valid-time period-name="Tuesday">2014-09-01T12:00:00-07:00</start-valid-time>
+            <start-valid-time period-name="Tuesday Night">2014-09-02T00:00:00-07:00
+            </start-valid-time>
+            <start-valid-time period-name="Wednesday">2014-09-02T12:00:00-07:00</start-valid-time>
+            <start-valid-time period-name="Wednesday Night">2014-09-03T00:00:00-07:00
+            </start-valid-time>
+            <start-valid-time period-name="Thursday">2014-09-03T12:00:00-07:00</start-valid-time>
+            <start-valid-time period-name="Thursday Night">2014-09-04T00:00:00-07:00
+            </start-valid-time>
+            <start-valid-time period-name="Friday">2014-09-04T12:00:00-07:00</start-valid-time>
+        </time-layout>
+        <time-layout summarization="12hourly" time-coordinate="local">
+            <layout-key>k-p24h-n7-1</layout-key>
+            <start-valid-time period-name="Overnight">2014-08-29T06:00:00-07:00</start-valid-time>
+            <start-valid-time period-name="Saturday Night">2014-08-30T00:00:00-07:00
+            </start-valid-time>
+            <start-valid-time period-name="Sunday Night">2014-08-31T00:00:00-07:00
+            </start-valid-time>
+            <start-valid-time period-name="Monday Night">2014-09-01T00:00:00-07:00
+            </start-valid-time>
+            <start-valid-time period-name="Tuesday Night">2014-09-02T00:00:00-07:00
+            </start-valid-time>
+            <start-valid-time period-name="Wednesday Night">2014-09-03T00:00:00-07:00
+            </start-valid-time>
+            <start-valid-time period-name="Thursday Night">2014-09-04T00:00:00-07:00
+            </start-valid-time>
+        </time-layout>
+        <time-layout summarization="12hourly" time-coordinate="local">
+            <layout-key>k-p24h-n7-2</layout-key>
+            <start-valid-time period-name="Saturday">2014-08-29T12:00:00-07:00</start-valid-time>
+            <start-valid-time period-name="Sunday">2014-08-30T12:00:00-07:00</start-valid-time>
+            <start-valid-time period-name="Labor Day">2014-08-31T12:00:00-07:00</start-valid-time>
+            <start-valid-time period-name="Tuesday">2014-09-01T12:00:00-07:00</start-valid-time>
+            <start-valid-time period-name="Wednesday">2014-09-02T12:00:00-07:00</start-valid-time>
+            <start-valid-time period-name="Thursday">2014-09-03T12:00:00-07:00</start-valid-time>
+            <start-valid-time period-name="Friday">2014-09-04T12:00:00-07:00</start-valid-time>
+        </time-layout>
+        <parameters applicable-location="point1">
+            <temperature time-layout="k-p24h-n7-1" type="minimum" units="Fahrenheit">
+                <name>Daily Minimum Temperature</name>
+                <value>60</value>
+                <value>59</value>
+                <value>59</value>
+                <value>60</value>
+                <value>59</value>
+                <value>58</value>
+                <value>58</value>
+            </temperature>
+            <temperature time-layout="k-p24h-n7-2" type="maximum" units="Fahrenheit">
+                <name>Daily Maximum Temperature</name>
+                <value>88</value>
+                <value>87</value>
+                <value>89</value>
+                <value>86</value>
+                <value>85</value>
+                <value>85</value>
+                <value>85</value>
+            </temperature>
+            <probability-of-precipitation time-layout="k-p12h-n14-1" type="12 hour" units="percent">
+                <name>12 Hourly Probability of Precipitation</name>
+                <value xsi:nil="true"></value>
+                <value xsi:nil="true"></value>
+                <value xsi:nil="true"></value>
+                <value xsi:nil="true"></value>
+                <value xsi:nil="true"></value>
+                <value xsi:nil="true"></value>
+                <value xsi:nil="true"></value>
+                <value xsi:nil="true"></value>
+                <value xsi:nil="true"></value>
+                <value xsi:nil="true"></value>
+                <value xsi:nil="true"></value>
+                <value xsi:nil="true"></value>
+                <value xsi:nil="true"></value>
+                <value xsi:nil="true"></value>
+            </probability-of-precipitation>
+            <weather time-layout="k-p12h-n14-1">
+                <name>Weather Type, Coverage, Intensity</name>
+                <weather-conditions weather-summary="Partly Cloudy" />
+                <weather-conditions weather-summary="Mostly Sunny" />
+                <weather-conditions weather-summary="Mostly Clear" />
+                <weather-conditions weather-summary="Sunny" />
+                <weather-conditions weather-summary="Mostly Clear" />
+                <weather-conditions weather-summary="Sunny" />
+                <weather-conditions weather-summary="Partly Cloudy" />
+                <weather-conditions weather-summary="Sunny" />
+                <weather-conditions weather-summary="Mostly Clear" />
+                <weather-conditions weather-summary="Sunny" />
+                <weather-conditions weather-summary="Mostly Clear" />
+                <weather-conditions weather-summary="Sunny" />
+                <weather-conditions weather-summary="Mostly Clear" />
+                <weather-conditions weather-summary="Sunny" />
+            </weather>
+            <conditions-icon time-layout="k-p12h-n14-1" type="forecast-NWS">
+                <name>Conditions Icon</name>
+                <icon-link>http://forecast.weather.gov/images/wtf/medium/nsct.png</icon-link>
+                <icon-link>http://forecast.weather.gov/images/wtf/medium/sct.png</icon-link>
+                <icon-link>http://forecast.weather.gov/images/wtf/medium/nfew.png</icon-link>
+                <icon-link>http://forecast.weather.gov/images/wtf/medium/few.png</icon-link>
+                <icon-link>http://forecast.weather.gov/images/wtf/medium/nfew.png</icon-link>
+                <icon-link>http://forecast.weather.gov/images/wtf/medium/few.png</icon-link>
+                <icon-link>http://forecast.weather.gov/images/wtf/medium/nsct.png</icon-link>
+                <icon-link>http://forecast.weather.gov/images/wtf/medium/few.png</icon-link>
+                <icon-link>http://forecast.weather.gov/images/wtf/medium/nfew.png</icon-link>
+                <icon-link>http://forecast.weather.gov/images/wtf/medium/few.png</icon-link>
+                <icon-link>http://forecast.weather.gov/images/wtf/medium/nfew.png</icon-link>
+                <icon-link>http://forecast.weather.gov/images/wtf/medium/few.png</icon-link>
+                <icon-link>http://forecast.weather.gov/images/wtf/medium/nfew.png</icon-link>
+                <icon-link>http://forecast.weather.gov/images/wtf/medium/few.png</icon-link>
+            </conditions-icon>
+            <wordedForecast dataSource="mtrNetcdf" time-layout="k-p12h-n14-1"
+                wordGenerator="markMitchell">
+                <name>Text Forecast</name>
+                <text>Partly cloudy, with a low around 60. Calm wind.</text>
+                <text>Mostly sunny, with a high near 88. Calm wind becoming north around 6 mph in
+                    the afternoon.
+                </text>
+                <text>Mostly clear, with a low around 59. Northwest wind 5 to 10 mph becoming light
+                    north after midnight.
+                </text>
+                <text>Sunny, with a high near 87. Light north wind.</text>
+                <text>Mostly clear, with a low around 59. North northwest wind 5 to 9 mph becoming
+                    calm in the evening.
+                </text>
+                <text>Sunny, with a high near 89.</text>
+                <text>Partly cloudy, with a low around 60.</text>
+                <text>Sunny, with a high near 86.</text>
+                <text>Mostly clear, with a low around 59.</text>
+                <text>Sunny, with a high near 85.</text>
+                <text>Mostly clear, with a low around 58.</text>
+                <text>Sunny, with a high near 85.</text>
+                <text>Mostly clear, with a low around 58.</text>
+                <text>Sunny, with a high near 85.</text>
+            </wordedForecast>
+        </parameters>
+    </data>
+    <data type="current observations">
+        <location>
+            <location-key>point1</location-key>
+            <point latitude="37.354722" longitude="-122.141667" />
+            <area-description>LOS ALTOS, CA</area-description>
+            <height datum="mean sea level" height-units="feet">539</height>
+        </location>
+        <moreWeatherInformation applicable-location="point1">
+            http://www.wrh.noaa.gov/total_forecast/other_obs.php?wfo=mtr&amp;zone=CAZ508
+        </moreWeatherInformation>
+        <time-layout time-coordinate="local">
+            <layout-key>k-p1h-n1-1</layout-key>
+            <start-valid-time period-name="current">2014-08-29T22:10:00</start-valid-time>
+        </time-layout>
+        <parameters applicable-location="point1">
+            <temperature time-layout="k-p1h-n1-1" type="apparent" units="Fahrenheit">
+                <value>63</value>
+            </temperature>
+            <temperature time-layout="k-p1h-n1-1" type="dew point" units="Fahrenheit">
+                <value>59</value>
+            </temperature>
+            <humidity time-layout="k-p1h-n1-1" type="relative">
+                <value>86</value>
+            </humidity>
+            <weather time-layout="k-p1h-n1-1">
+                <name>Weather Type, Coverage, Intensity</name>
+                <weather-conditions weather-summary="NA" />
+                <weather-conditions>
+                    <value>
+                        <visibility units="statute miles">NA</visibility>
+                    </value>
+                </weather-conditions>
+            </weather>
+            <conditions-icon time-layout="k-p1h-n1-1" type="forecast-NWS">
+                <name>Conditions Icon</name>
+                <icon-link>NULL</icon-link>
+            </conditions-icon>
+            <direction time-layout="k-p1h-n1-1" type="wind" units="degrees true">
+                <value>NA</value>
+            </direction>
+            <wind-speed time-layout="k-p1h-n1-1" type="gust" units="knots">
+                <value>2</value>
+            </wind-speed>
+            <wind-speed time-layout="k-p1h-n1-1" type="sustained" units="knots">
+                <value>0</value>
+            </wind-speed>
+            <pressure time-layout="k-p1h-n1-1" type="barometer" units="inches of mercury">
+                <value>NA</value>
+            </pressure>
+        </parameters>
+    </data>
+</dwml>
